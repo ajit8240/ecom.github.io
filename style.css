@@ -1,0 +1,103 @@
+nav{
+    background-color: #28a745 !important;
+}
+
+.nav-link{
+    color: #fff !important;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link:hover{
+    color: #b5ffc6 !important;
+}
+
+
+.dropdown-item{
+    color: #191919 !important;
+    font-weight: 500;
+}
+
+
+/* ---------about section --------- */
+section{
+    padding: 2rem 0;
+    margin: 3rem 0;
+}
+
+#about .btn-success{
+    background-color: #28a745 !important;
+    font-weight: 500;
+
+}
+
+.about-line{
+    width: 90px;
+    height: 3px;
+    background-color: #28a745;
+}
+
+/* ------------top-developers------------ */
+#top-developers .card{
+    padding: 1rem   ;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#top-developers .card p{
+    text-align: justify;
+    padding: 1rem 0;
+    font-size: 16px;
+}
+
+#top-developers .col-lg-4{
+    padding: 1rem;
+}
+
+.t-line{
+    max-width: 200px;
+    height: 3px;
+    background-color: #28a745;
+    margin: auto;
+}
+/* ----- search property ----------  */
+#search-property{
+    background-color: #28a745;
+    text-align: center;
+}
+
+
+#search-property form{
+    max-width: 80%;
+    text-align: center;
+    margin:2rem auto;
+    
+   
+}
+
+/* -------client-testimony-------- */
+
+#client-testimony .card{
+    max-width: 300px;
+    margin: auto;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#client-testimony img{
+    width: 100%;
+    max-height: 200px;
+
+    
+}
+/* -------brands----------- */
+#brands .card{
+    text-align: center;
+    border: none;
+  
+}
+
+iframe{
+    max-width: 100%;
+}

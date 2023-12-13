@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold fs-3" href="#">E-comWeb</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Properties
+
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Resell</a></li>
+                  <li><a class="dropdown-item" href="#">Land</a></li>
+                  <li><a class="dropdown-item" href="#">House </a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <!-- carousel start  -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner pt-4">
+          <div class="carousel-item active">
+            <img src="images/1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/2.png" class="d-block w-100" alt="">
+          </div>
+          <div class="carousel-item">
+            <img src="images/3.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<!-- About section  -->
+<section id="about">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <div class="left">
+                    <h2>About E-comR</h2>
+                    <div class="about-line"></div>
+                    <p class="fs-5 my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero incidunt quo minima cupiditate dolor magnam commodi enim nemo ea, quos distinctio maiores, unde velit pariatur architecto molestiae perspiciatis quas quae!
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi maxime laboriosam, officiis error ipsa illum deserunt corrupti aspernatur unde sunt.
+                    </p>
+                    <button type="button" class="btn btn-success ">Know More</button>
+
+                </div>
+            </div>
+
+            <div class="col-md-6 p-lg-5">
+                <img src="images/about.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Top Developers  -->
+<section id="top-developers">
+
+    <div class="container">
+     
+        <div class="row justify-content-center row-gap-4">
+          <div class="col-lg-12 text-center">
+            <h2>Top Developers</h2>
+            <p>We have India's Best Developers</p>
+            <div class="t-line"></div>
+          </div>
+          
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                <h5>Unimark Group</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit soluta voluptatum dignissimos sit similique, cupiditate adipisci incidunt possimus animi nihil qui alias? Nobis, dolor veritatis quo consequatur vel quibusdam!</p>
+            </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                <h5>Unimark Group</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit soluta voluptatum dignissimos sit similique, cupiditate adipisci incidunt possimus animi nihil qui alias? Nobis, dolor veritatis quo consequatur vel quibusdam!</p>
+            </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card">
+                <h5>Unimark Group</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum fugit soluta voluptatum dignissimos sit similique, cupiditate adipisci incidunt possimus animi nihil qui alias? Nobis, dolor veritatis quo consequatur vel quibusdam!</p>
+            </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- ------search property --------->
+<section id="search-property">
+   <div class="container text-light py-5">
+    <h1 class="display-5 fw-bold">India's Best Real Estate Solution</h1>
+    <p>Top Trends | Top Properties | Top Developers | Top Location</p>
+
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-light" type="submit">Search</button>
+    </form>
+   </div>
+</section>
+
+<!-- Client Testimonials  -->
+<section id="client-testimony">
+  <div class="container">
+    <div class="row row-gap-4 justify-content-center">
+      <div class="col-12 text-center">
+        <h2>Clients Testimonials</h2>
+        <p>See What Our Client Tells About Us</p>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="images/client1.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eos, at accusamus expedita, eveniet minus doloremque </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="images/client2.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eos, at accusamus expedita, eveniet minus doloremque </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card">
+          <img src="images/client3.jpg" alt="">
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa eos, at accusamus expedita, eveniet minus doloremque </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- -------Brands------- -->
+<section id="brands">
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center py-3">
+      <h2>Brands & Associates</h2>
+      <p>We have India's Best Developers</p>
+    </div>
+    <div class="col-md-2 col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/arya-realty-logo.webp" alt="" height="50px">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2 col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/avni-group-logo.webp" height="50px" width="70%" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2 col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/ginni-park-nx-logo-1.webp" alt="" height="50px" style="width: 60%;">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2 col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/gls-realty-logo.webp" height="50px" style="width: 60%;" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2 col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/gurukul-homes-logo.webp"  height="50px" style="width: 100%;" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-2 col-sm-3">
+      <div class="card">
+        <div class="card-body">
+          <img src="images/unitech-logo.webp"  height="50px" style="width: 60%;" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- -------contact us------- -->
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2>Contact E-comR</h2>
+        <p>We are 24 X 7 Available ! Feel Free to Contact With Us !!!</p>
+      </div>
+
+      <div class="col-lg-6 col-md-12">
+        <h2>Get Quote Today</h2>
+        <p>Email: ajit@gmail.com</p>
+        <p>Phone: +91 1234567890</p>
+        <p>Address: Kolkata, West Bengal</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117925.21689594688!2d88.2649497435031!3d22.535564938158952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1701785333210!5m2!1sen!2sin" width="550" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+      </div>
+      
+      <div class="col-lg-6 col-md-12">
+        <form class="row g-3 p-3">
+          <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">First Name</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Last Name</label>
+            <input type="Last Nane" class="form-control" id="inputPassword4">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress" class="form-label">Phone</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="+91 ">
+          </div>
+          <div class="col-12">
+            <label for="inputAddress2" class="form-label">Email</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="Email">
+          </div>
+          <div class="col-md-12">
+            <label for="inputCity" class="form-label">Messege</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+           <button class="btn btn-success">Send Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+ <!-- Footer -->
+ <div class="bg-dark py-3">
+  <p class="text-center text-light">Copyright &copy; E-comR, 2023 !!</p>
+</div>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" ></script>
+  </body>
+</html>
